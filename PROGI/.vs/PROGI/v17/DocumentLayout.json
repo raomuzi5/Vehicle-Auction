@@ -1,0 +1,424 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proji\\PROGI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\sp\\createdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:sp\\createdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71489B5-C384-48B3-A608-5C33DC3B0EAB}|..\\Proji.Tests\\Proji.Tests.csproj|d:\\proji\\proji.tests\\vehicleauctioncalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A98C3B-5063-4F82-B1E3-7393FF548861}|..\\Proji.Application\\Proji.Application.csproj|d:\\proji\\proji.application\\services\\feecalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A98C3B-5063-4F82-B1E3-7393FF548861}|..\\Proji.Application\\Proji.Application.csproj|d:\\proji\\proji.application\\commands\\vehiclecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\services\\ifeecalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\dtos\\calculationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A98C3B-5063-4F82-B1E3-7393FF548861}|..\\Proji.Application\\Proji.Application.csproj|d:\\proji\\proji.application\\commands\\commandhandlers\\vehiclecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\sp\\initial_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:sp\\initial_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5933ACC-83F7-4419-BBDA-A329BC9EF6FB}|..\\Proji.Infrastructure\\Proji.Infrastructure.csproj|d:\\proji\\proji.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A98C3B-5063-4F82-B1E3-7393FF548861}|..\\Proji.Application\\Proji.Application.csproj|d:\\proji\\proji.application\\registration\\mediatrserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A98C3B-5063-4F82-B1E3-7393FF548861}|..\\Proji.Application\\Proji.Application.csproj|d:\\proji\\proji.application\\queries\\queryhandlers\\getvehiclebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4A98C3B-5063-4F82-B1E3-7393FF548861}|..\\Proji.Application\\Proji.Application.csproj|d:\\proji\\proji.application\\queries\\getvehiclebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\validators\\genericvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\validators\\validationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\enums\\cartype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D454D568-3E0F-4F50-8C60-48560ED7D288}|..\\Proji.Persistence\\Proji.Persistence.csproj|d:\\proji\\proji.persistence\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E0EA3D-3226-4FB7-B668-487EAC52FAAB}|..\\Proji.Domain\\Proji.Domain.csproj|d:\\proji\\proji.domain\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5933ACC-83F7-4419-BBDA-A329BC9EF6FB}|..\\Proji.Infrastructure\\Proji.Infrastructure.csproj|d:\\proji\\proji.infrastructure\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\sp\\initial_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:sp\\initial_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|d:\\proji\\progi\\sp\\createdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{79FBB3BB-859C-47F3-91EE-01DFAE647BA7}|PROGI.csproj|solutionrelative:sp\\createdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleAuctionCalculatorTests.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Tests\\VehicleAuctionCalculatorTests.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Tests\\VehicleAuctionCalculatorTests.cs",
+              "ToolTip": "D:\\Proji\\Proji.Tests\\VehicleAuctionCalculatorTests.cs",
+              "RelativeToolTip": "..\\Proji.Tests\\VehicleAuctionCalculatorTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:29:37.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "D:\\Proji\\PROGI\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VehicleController.cs",
+              "ToolTip": "D:\\Proji\\PROGI\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "Controllers\\VehicleController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:11:46.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:35:04.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateDatabase.sql ",
+              "DocumentMoniker": "D:\\Proji\\PROGI\\Sp\\CreateDatabase.sql",
+              "RelativeDocumentMoniker": "Sp\\CreateDatabase.sql",
+              "ToolTip": "D:\\Proji\\PROGI\\Sp\\CreateDatabase.sql",
+              "RelativeToolTip": "Sp\\CreateDatabase.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-20T23:51:22.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeeCalculationService.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Application\\Services\\FeeCalculationService.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Application\\Services\\FeeCalculationService.cs",
+              "ToolTip": "D:\\Proji\\Proji.Application\\Services\\FeeCalculationService.cs",
+              "RelativeToolTip": "..\\Proji.Application\\Services\\FeeCalculationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:36:58.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehicleCommands.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Application\\Commands\\VehicleCommands.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Application\\Commands\\VehicleCommands.cs",
+              "ToolTip": "D:\\Proji\\Proji.Application\\Commands\\VehicleCommands.cs",
+              "RelativeToolTip": "..\\Proji.Application\\Commands\\VehicleCommands.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:56:39.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalculationResult.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Dtos\\CalculationResult.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Dtos\\CalculationResult.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Dtos\\CalculationResult.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Dtos\\CalculationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T01:10:30.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFeeCalculationService.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Services\\IFeeCalculationService.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Services\\IFeeCalculationService.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Services\\IFeeCalculationService.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Services\\IFeeCalculationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:35:48.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Dtos\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Dtos\\ApiResponse.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Dtos\\ApiResponse.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Dtos\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:22:24.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleCommandHandler.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Application\\Commands\\CommandHandlers\\VehicleCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Application\\Commands\\CommandHandlers\\VehicleCommandHandler.cs",
+              "ToolTip": "D:\\Proji\\Proji.Application\\Commands\\CommandHandlers\\VehicleCommandHandler.cs",
+              "RelativeToolTip": "..\\Proji.Application\\Commands\\CommandHandlers\\VehicleCommandHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:59:23.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "initial_Script.sql ",
+              "DocumentMoniker": "D:\\Proji\\PROGI\\Sp\\initial_Script.sql",
+              "RelativeDocumentMoniker": "Sp\\initial_Script.sql",
+              "ToolTip": "D:\\Proji\\PROGI\\Sp\\initial_Script.sql",
+              "RelativeToolTip": "Sp\\initial_Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-20T23:41:49.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ToolTip": "D:\\Proji\\Proji.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "RelativeToolTip": "..\\Proji.Infrastructure\\Repositories\\VehicleRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwCsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:47:20.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proji\\PROGI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Proji\\PROGI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T22:54:48.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetVehicleByIdQuery.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Application\\Queries\\GetVehicleByIdQuery.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Application\\Queries\\GetVehicleByIdQuery.cs",
+              "ToolTip": "D:\\Proji\\Proji.Application\\Queries\\GetVehicleByIdQuery.cs",
+              "RelativeToolTip": "..\\Proji.Application\\Queries\\GetVehicleByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:16:06.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetVehicleByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Application\\Queries\\QueryHandlers\\GetVehicleByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Application\\Queries\\QueryHandlers\\GetVehicleByIdQueryHandler.cs",
+              "ToolTip": "D:\\Proji\\Proji.Application\\Queries\\QueryHandlers\\GetVehicleByIdQueryHandler.cs",
+              "RelativeToolTip": "..\\Proji.Application\\Queries\\QueryHandlers\\GetVehicleByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:17:05.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MediatRServiceRegistration.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Application\\Registration\\MediatRServiceRegistration.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Application\\Registration\\MediatRServiceRegistration.cs",
+              "ToolTip": "D:\\Proji\\Proji.Application\\Registration\\MediatRServiceRegistration.cs",
+              "RelativeToolTip": "..\\Proji.Application\\Registration\\MediatRServiceRegistration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T23:08:01.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Proji\\PROGI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Proji\\PROGI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T22:28:24.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ValidationServices.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Validators\\ValidationServices.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Validators\\ValidationServices.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Validators\\ValidationServices.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Validators\\ValidationServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T22:03:31.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenericValidator.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Validators\\GenericValidator.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Validators\\GenericValidator.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Validators\\GenericValidator.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Validators\\GenericValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:48:17.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CarType.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Enums\\CarType.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Enums\\CarType.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Enums\\CarType.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Enums\\CarType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:31:31.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Proji\\PROGI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Proji\\PROGI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T21:36:08.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Persistence\\DataAccess.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Persistence\\DataAccess.cs",
+              "ToolTip": "D:\\Proji\\Proji.Persistence\\DataAccess.cs",
+              "RelativeToolTip": "..\\Proji.Persistence\\DataAccess.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBZwBoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:31:21.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VehicleDTO.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Domain\\Dtos\\VehicleDTO.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Domain\\Dtos\\VehicleDTO.cs",
+              "ToolTip": "D:\\Proji\\Proji.Domain\\Dtos\\VehicleDTO.cs",
+              "RelativeToolTip": "..\\Proji.Domain\\Dtos\\VehicleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:40:53.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "D:\\Proji\\Proji.Infrastructure\\Repositories\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "..\\Proji.Infrastructure\\Repositories\\IVehicleRepository.cs",
+              "ToolTip": "D:\\Proji\\Proji.Infrastructure\\Repositories\\IVehicleRepository.cs",
+              "RelativeToolTip": "..\\Proji.Infrastructure\\Repositories\\IVehicleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:46:32.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
