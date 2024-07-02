@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="form-container">
+      <div class="card">
+        <h2>Calculate Vehicle Auction Cost</h2>
+  
+        <form (ngSubmit)="calculateTotalCost()" [formGroup]="commandForm" novalidate>
+          <div class="form-group">
+            <label for="basePrice">Vehicle Base Price:</label>
+            <input type="number" id="basePrice" formControlName="basePrice" (input)="calculateTotalCost()" (change)="calculateTotalCost()" required>
+            <div *ngIf="commandForm.controls.basePrice.invalid && (commandForm.controls.basePrice.dirty || commandForm.controls.basePrice.touched)"
+                 class="error">
+              <div *ngIf="commandForm.controls.basePrice.errors.required">
+                Vehicle Base Price is required.
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <label>Vehicle Type:</label>
+            <div class="radio-buttons">
+              <label>
+                <input type="radio" formControlName="carType" value="Common" (change)="calculateTotalCost()" required>
+                Common
+              </label>
+              <label>
+                <input type="radio" formControlName="carType" value="Luxury" (change)="calculateTotalCost()" required>
+                Luxury
+              </label>
+            </div>
+            <div *ngIf="commandForm.controls.carType.invalid && (commandForm.controls.carType.dirty || commandForm.controls.carType.touched)"
+                 class="error">
+              <div *ngIf="commandForm.controls.carType.errors.required">
+                Vehicle Type is required.
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+  
+      <div *ngIf="calculationResult" class="card result">
+        <h3>Calculation Result</h3>
+        <div class="fees">
+            <div class="fee-item">
+              <label>Basic Fee:</label>
+              <span>${{ calculationResult.basicFee }}</span>
+            </div>
+            <div class="fee-item">
+              <label>Special Fee:</label>
+              <span>${{ calculationResult.specialFee }}</span>
+            </div>
+            <div class="fee-item">
+              <label>Association Fee:</label>
+              <span>${{ calculationResult.associationFee }}</span>
+            </div>
+            <div class="fee-item">
+              <label>Storage Fee:</label>
+              <span>${{ calculationResult.storageFee }}</span>
+            </div>
+          </div>
+        
+          <div class="total-cost">
+            <label>Total Cost:</label>
+            <span>${{ calculationResult.totalCost }}</span>
+          </div>
+      </div>      
+    </div>
+  </div>
+  

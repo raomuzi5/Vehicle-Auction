@@ -1,0 +1,248 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    display: block; /* Ensure label is on its own line */
+  }
+  
+  input[type="number"] {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: calc(100% - 22px); /* Adjust width to account for padding and border */
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+  }
+  
+  .radio-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-buttons label {
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+  
+  .radio-buttons input[type="radio"] {
+    margin-right: 5px;
+    transform: translateY(2px); /* Adjust vertical alignment of radio buttons */
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font family */
+  }
+  
+  .result h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .result p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }.result {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+  }
+  
+  .result h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .result-item label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .result-item span {
+    color: #777;
+  }
+  
+  .result-item span::before {
+    content: '$';
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .result-item span::after {
+    content: '';.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust height as needed */
+        background-color: #f0f0f0;
+      }
+      
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 600px; /* Adjust max-width as per your design */
+        padding: 20px;
+      }
+      
+      .card {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+      
+      .result {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+      
+      .form-group {
+        margin-bottom: 15px;
+      }
+      
+      .error {
+        color: red;
+        font-size: 0.85em;
+        margin-top: 5px;
+      }
+      
+      .radio-buttons {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .result-item {
+        margin-bottom: 10px;
+      }
+      
+      @media (max-width: 768px) {
+        .card {
+          padding: 15px;
+        }
+      
+        .result {
+          padding: 15px;
+        }
+      }
+      
+  }
+  .result {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .fees {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fee-item {
+    flex: 0 0 calc(50% - 20px); /* Two items per row with margin */
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .fee-item:last-child {
+    margin-right: 0;
+  }
+  
+  .total-cost {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  @media (max-width: 768px) {
+    .fee-item {
+      flex: 0 0 100%; /* Stack items on smaller screens */
+      margin-right: 0;
+    }
+  }
+  
+  
